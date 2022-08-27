@@ -1,5 +1,5 @@
 <p align=center> 
-  <img src="https://www.misiontic2022.gov.co/746/channels-645_logo_misiontic.png" alt="Logo mision tic 2022" style= " width: 200px;">
+  <img src="https://misiontic2022.mintic.gov.co/mtv2/assets/assets/images/logo-mision.png" alt="Logo mision tic 2022" style= " width: 200px;">
 </p>
 
 <h1 align=center style="font-size: 20px; font-weight: bold;"> 
