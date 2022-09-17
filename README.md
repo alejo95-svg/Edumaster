@@ -23,9 +23,6 @@
     <li>
       Silva Silva Yelsin
     </li>
-    <li>
-      Uribe Barreto Ingrith Milena 
-    </li>
    </ul>
 
 
