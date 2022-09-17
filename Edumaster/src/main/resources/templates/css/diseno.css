@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    /*background: linear-gradient(to top, #ffffff 50%, #4040e4 90%) no-repeat*/
+    /*background-image: url("../Imagenes/fondo1.jpg");*/
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin: 50px auto
+}
+
+#forgot {
+    min-width: 100px;
+    margin-left: auto;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn.btn-primary {
+    margin-top: 20px;
+    border-radius: 10px
+}
+
+.panel {
+    min-height: 380px;
+    box-shadow: 20px 20px 80px rgb(218, 218, 218);
+    border-radius: 12px
+}
+
+.botonLogin{
+    width: 100%;
+    height: 48px;
+}
+
+.icono{
+    margin-left: 20px;
+}
+
+.edu{
+    color:blue;
+}
+
+.login{
+    color: #005eff;
+}
+
+.border{
+    margin-top: 14%;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Edumaster</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <LINK REL=StyleSheet HREF="css/diseño.css" TYPE="text/css" MEDIA=screen>
+</head>
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light justify-content-between header">
+        <b><a class="navbar-brand icono" href="Certificado.html"><span class="edu">EDU</span>MASTER</a></b>
+        <a href="Login.html"><span class="login">Iniciar sesión</span></a>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3">
+                <div class="panel border bg-white">
+                    <div class="panel-body p-3">
+                        <form action="admin.php" method="POST">
+
+                            <div class="form-group py-2">
+                                <label><H5><b>Usuario:</b></H5></label>
+                                <input class="form-control form-control-lg bg-light" type="text" placeholder="Id empleado" pattern="[0-9]{8,12}" required>
+                            </div>
+                            <br>
+                            <div class="form-group py-1 pb-2">
+                                <label><H5><b>Contraseña:</b></H5></label>
+                                <input class="form-control form-control-lg bg-light" type="password" placeholder="Ingrese su contraseña" required>
+                            </div>
+                            <input type="submit" class="btn btn-primary btn-lg btn-block botonLogin" value="INGRESA">
+                            <br><br>
+                            <!-- <div class="form-inline">
+                                <center>
+                                    <label for="remember" class="text-muted">
+                                        <a href="#" id="forgot" class="font-weight-bold">Olvidé mi contraseña</a>
+                                    </label> 
+                                </center>
+                            </div> -->
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>
