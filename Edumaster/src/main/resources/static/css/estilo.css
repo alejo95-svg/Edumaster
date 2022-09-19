@@ -8,9 +8,10 @@
 }
 
 body {
-    /*background: linear-gradient(to top, #ffffff 50%, #4040e4 90%) no-repeat*/
-    /*background-image: url("../Imagenes/fondo1.jpg");*/
+	height: 100%;
     background-repeat: no-repeat;
+    background: url("../Imagenes/fondo1.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
 }
 
 .container {
@@ -61,4 +62,8 @@ a{
 
 .border{
     margin-top: 14%;
+}
+
+.iluminar{
+	box-shadow: 20px 20px 80px rgb(218, 218, 218);
 }

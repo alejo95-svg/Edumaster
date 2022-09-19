@@ -6,15 +6,15 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.3</version>
-		<relativePath/> 
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.EduMaster</groupId>
+	<groupId>com.edumaster</groupId>
 	<artifactId>Edumaster</artifactId>
 	<version>0.0.1</version>
 	<name>Edumaster</name>
-	<description>Capacitaciones empleados</description>
+	<description>Proyecto</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
