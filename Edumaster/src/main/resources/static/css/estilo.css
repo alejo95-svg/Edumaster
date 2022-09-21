@@ -32,18 +32,15 @@ a{
     text-decoration: none;
 }
 
-.btn.btn-primary {
-    margin-top: 20px;
-    border-radius: 10px
-}
-
-.panel {
+.panel{
     min-height: 380px;
     box-shadow: 20px 20px 80px rgb(218, 218, 218);
     border-radius: 12px
 }
 
 .botonLogin{
+	margin-top: 20px;
+    border-radius: 10px;
     width: 100%;
     height: 48px;
 }
