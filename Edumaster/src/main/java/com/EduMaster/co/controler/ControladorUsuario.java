@@ -39,7 +39,7 @@ public class ControladorUsuario {
 	@PostMapping("/saveUsuario")
 	public String save(@Validated Usuario p, Model model) {
 		service.saveUsuario(p);
-		return "redirect:/listar";		
+		return "redirect:/listarUsuario";		
 	}
 	
 	@GetMapping("/editarUsuario/{Cedula}")
