@@ -3,6 +3,7 @@ package com.edumaster.co.modelo;
 import java.math.BigInteger;
 import java.sql.Time;
 
+import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,6 +16,7 @@ public class Capacitacion {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer ID;
+	@Basic
 	private String Descripcion;
 	private Time Duracion;
 	private Integer Id_tipo;
