@@ -1,4 +1,4 @@
-package com.edumaster.co.interfaceService;
+/*package com.edumaster.co.interfaceService;
 
 import java.math.BigInteger;
 import java.util.List;
@@ -12,3 +12,4 @@ public interface IRegistroService {
 	public int saveRegistro(Registro c);
 	public void deleteRegistro(BigInteger Id_usuario, Integer Id_capacitacion);
 }
+*/

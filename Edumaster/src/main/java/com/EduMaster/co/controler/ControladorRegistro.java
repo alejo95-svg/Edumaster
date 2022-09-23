@@ -1,4 +1,4 @@
-package com.edumaster.co.controler;
+/*package com.edumaster.co.controler;
 
 import java.math.BigInteger;
 import java.util.List;
@@ -54,4 +54,4 @@ public class ControladorRegistro {
 		return "redirect:/listar";
 	}
 
-}
+}*/

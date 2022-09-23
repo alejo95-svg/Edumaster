@@ -1,10 +1,11 @@
-package com.edumaster.co.modelo;
+/*package com.edumaster.co.modelo;
 
 import java.math.BigInteger;
 import java.sql.Date;
 import java.sql.Time;
 
 import javax.persistence.Basic;
+import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,8 +15,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name= "registro")
 public class Registro {
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@EmbeddedId
 	private BigInteger Id_usuario;
 	private Integer Id_capacitacion;
 	@Basic
@@ -76,4 +76,4 @@ public class Registro {
 		Hora_fin = hora_fin;
 	}
 
-}
+}*/

@@ -1,4 +1,4 @@
-package com.edumaster.co.service;
+/*package com.edumaster.co.service;
 
 import java.math.BigInteger;
 import java.util.List;
@@ -40,4 +40,4 @@ public class RegistroService implements IRegistroService{
 	public void deleteRegistro(BigInteger Id_usuario, Integer Id_capacitacion) {
 		data.deleteById(Id_usuario,Id_capacitacion);
 	}
-}
+}*/
