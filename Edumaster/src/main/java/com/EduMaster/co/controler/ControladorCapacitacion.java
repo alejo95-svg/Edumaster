@@ -22,6 +22,11 @@ public class ControladorCapacitacion {
 	@Autowired
 	private ICapacitacionService service;
 	
+	@GetMapping("/")
+	public String index() {
+		return "login";
+	}
+	
 	@GetMapping("/login")
 	public String login() {
 		return "login";
