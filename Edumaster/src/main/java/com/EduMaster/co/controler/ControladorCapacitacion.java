@@ -41,7 +41,7 @@ public class ControladorCapacitacion {
 	public String listar(Model model) {
 		List<Capacitacion> Capacitacion = service.listar();
 		model.addAttribute("Capacitacion", Capacitacion);
-		return "index";
+		return "Index";
 	}
 	
 	@GetMapping("/new")
