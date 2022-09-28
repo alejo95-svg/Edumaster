@@ -1,0 +1,14 @@
+package com.edumaster.co.interfaceService;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.edumaster.co.modelo.Usuario;
+
+
+public interface IUsuarioService {
+	public List<Usuario>listar();
+	public Optional<Usuario>listarId(int Cedula);
+	public int save(Usuario c);
+	public void delete(int id);
+}

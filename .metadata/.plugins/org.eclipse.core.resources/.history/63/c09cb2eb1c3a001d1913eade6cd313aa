@@ -1,0 +1,10 @@
+package com.edumaster.co.service;
+
+import org.springframework.stereotype.Service;
+
+import com.edumaster.co.interfaceService.IRegistroService;
+
+@Service
+public class RegistroService implements IRegistroService{
+	
+}

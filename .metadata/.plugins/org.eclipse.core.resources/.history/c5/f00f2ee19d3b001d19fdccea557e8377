@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Usuarios</title>
+</head>
+<body>
+    <div class="container mt-4">
+    	<div class="col-sm-6">
+    		<form th:action="@{/save}" th:object=${usuarios} method="POST">
+    			<div class="card">
+				  <div class="card-header">
+				  	<h3>registrate</h3>
+				  </div>
+				  <div class="card-body">
+				  	<div class="form-group">
+				  		<label>NOMBRE:</label>
+				  		<input th:field="*{nombre}" type="text" class="form-control"/>
+				  	</div>
+				  	<div class="form-group">
+				  		<label>Apellido</label>
+				  		<input th:field="*{apellido}" type="text" class="form-control"/>
+				  	</div>
+				  	<div class="form-group">
+				  		<label>email</label>
+				  		<input th:field="*{email}" type="email" class="form-control"/>
+				  	</div>
+				  	<div class="form-group">
+				  		<label>password</label>
+				  		<input th:field="*{password}" type="password" class="form-control"/>
+				  	</div>
+				  	
+				  </div>
+				  <div class="card-footer">
+				  	<input type="submit" value="Registrar" class="btn btn-success">
+				  </div>
+				  <div class="form-inline">
+                            <center>
+                                <label for="remember" class="text-muted">
+                                    <a th:href="@{/ConsultaEmpleado}" id="forgot" class="font-weight-bold">ya estoy registrado</a>
+                                </label> 
+                            </center>
+                        </div>    		
+    			</div>
+    		</form>  	    	
+    	</div>    
+    </div>    
+</body>
+</html>

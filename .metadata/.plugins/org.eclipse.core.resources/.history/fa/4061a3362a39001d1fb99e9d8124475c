@@ -1,0 +1,55 @@
+package com.edumaster.co.modelo;
+
+import java.math.BigInteger;
+import java.sql.Date;
+
+import javax.persistence.Basic;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name= "usuario")
+public class Usuario {
+	@Id
+	private BigInteger Cedula;
+	@Basic
+	private String Nombre;
+	private String Apellidos;
+	private Integer Id_genero;
+	private BigInteger Telefono;
+	private BigInteger Celular;
+	private String Correo;
+	private Date Fecha_creacion;
+	private Date Fecha_retiro;
+	private Integer Id_cargo;
+	private Integer Id_rol;
+	private String Contraseña;
+	private String Activo;
+	
+	public Usuario() {
+	
+	}
+
+	public Usuario(BigInteger cedula, String nombre, String apellidos, Integer id_genero, BigInteger telefono,
+			BigInteger celular, String correo, Date fecha_creacion, Date fecha_retiro, Integer id_cargo, Integer id_rol,
+			String contraseña, String activo) {
+		super();
+		Cedula = cedula;
+		Nombre = nombre;
+		Apellidos = apellidos;
+		Id_genero = id_genero;
+		Telefono = telefono;
+		Celular = celular;
+		Correo = correo;
+		Fecha_creacion = fecha_creacion;
+		Fecha_retiro = fecha_retiro;
+		Id_cargo = id_cargo;
+		Id_rol = id_rol;
+		Contraseña = contraseña;
+		Activo = activo;
+	}
+	
+	
+	
+}

@@ -1,0 +1,31 @@
+package com.example.demo.servicio;
+
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.dto.UsuarioRegistroDTO;
+import com.example.demo.modelo.Usuarios;
+import com.example.demo.repositorio.UsuarioRepositorio;
+
+@Service
+public class UsuarioServicioImpl implements UsuarioServicio{
+	
+	private UsuarioRepositorio usuarioRepositorio;
+	private BCryptPasswordEncoder passwordEncoder;
+	
+	public UsuarioServicioImpl(UsuarioRepositorio usuarioRepositorio) {
+		super();
+		this.usuarioRepositorio = usuarioRepositorio;
+	}
+	
+	public Usuarios guardar(UsuarioRegistroDTO registroDTO) {
+		Usuarios usuario =new Usuarios(registroDTO.getNombre(),
+				registroDTO.getApellido(),
+				registroDTO.getEmail(),
+				passwordEncoder.encode(registroDTO.getPassword()));
+		
+		return usuario;
+	}
+	
+	
+}

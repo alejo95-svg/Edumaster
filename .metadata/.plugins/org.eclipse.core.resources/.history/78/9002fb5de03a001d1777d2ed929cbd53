@@ -1,0 +1,26 @@
+package com.example.demo.modelo;
+
+public class Usuarios {
+	private Integer id;
+	private String nombres;
+	private String apellido;
+	private String email;
+	private String password;
+	
+	public Usuarios() {
+		
+	}
+
+	public Usuarios(Integer id, String nombres, String apellido, String email, String password) {
+		super();
+		this.id = id;
+		this.nombres = nombres;
+		this.apellido = apellido;
+		this.email = email;
+		this.password = password;
+	}
+	
+	
+	
+	
+}

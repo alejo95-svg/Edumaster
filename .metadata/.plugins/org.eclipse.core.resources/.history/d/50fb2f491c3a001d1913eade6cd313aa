@@ -1,0 +1,12 @@
+package com.edumaster.co.interfaceService;
+
+import java.math.BigInteger;
+import java.util.List;
+import java.util.Optional;
+
+public interface IRegistroService {
+	public List<Usuario>listarUsuario();
+	public Optional<Usuario>listarCedulaUsuario(BigInteger Cedula);
+	public int saveUsuario(Usuario c);
+	public void deleteUsuario(BigInteger Cedula);
+}

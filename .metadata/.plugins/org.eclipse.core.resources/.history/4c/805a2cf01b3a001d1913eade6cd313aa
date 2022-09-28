@@ -1,0 +1,5 @@
+package com.edumaster.co.interfaces;
+
+public interface IRegistro {
+
+}

@@ -1,0 +1,5 @@
+package com.edumaster.co.modelo;
+
+public class Usuario {
+
+}

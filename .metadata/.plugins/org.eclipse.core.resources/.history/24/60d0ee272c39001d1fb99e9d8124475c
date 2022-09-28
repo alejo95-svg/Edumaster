@@ -1,0 +1,14 @@
+package com.edumaster.co.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.edumaster.co.interfaces.IUsuario;
+
+
+@Service
+public class UsuarioService {
+	@Autowired
+	private IUsuario data;
+
+}
