@@ -1,5 +1,0 @@
-package com.edumaster.co.interfaceService;
-
-public interface IUsuarioService {
-
-}

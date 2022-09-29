@@ -1,9 +1,0 @@
-package com.example.demo.servicio;
-
-import org.springframework.security.core.userdetails.UserDetailsService;
-
-import com.example.demo.dto.UsuarioRegistroDTO;
-
-public interface UsuarioServicio extends UserDetailsService{
-	public Usuario guardar(UsuarioRegistroDTO)
-}

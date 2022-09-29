@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Edumaster/src/main/resources/templates/ListarUsuarios&apos; to &apos;ListarUsuarios.html&apos;" description="Rename resource &apos;ListarUsuarios&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/ListarUsuarios" name="ListarUsuarios.html" stamp="1663712738832" updateReferences="true"/>
-</session>

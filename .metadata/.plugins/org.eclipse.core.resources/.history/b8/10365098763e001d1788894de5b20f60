@@ -1,5 +1,0 @@
-spring.datasource.url=jdbc:mysql://https://db4free.net/
-spring.datasource.username=root
-spring.datasource.password=
-spring.datasource.dbcp2.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.jpa.hibernate.ddl-auto=update
